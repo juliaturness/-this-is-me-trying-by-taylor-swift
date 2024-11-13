@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --cinza-claro: #9c9c9c;
+    --cinza-escuro: #676767;
+    --azul-claro: #8a9a9f;
+    --azul-escuro: #808d98;
+    --preto: #25282d;
+    --verde: #949e7c;
+    --verde-escuro:#4f5541;
+}
+.cabeçalho{
+    background-color: var(--preto);
+
+    position: fixed;
+    padding: 28px 8%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    color: var(--cinza-claro);
+}
+.navbar a{
+    font-size: 18px;
+    color: var(--cinza-claro);
+    margin-left: 25px;
+    padding-bottom: 28px;
+}
+.navbar a:hover{
+    border-bottom: 3px solid var(--cinza-escuro);
+}
+.navbar a:active{
+    color: var(--azul-escuro);
+    border-bottom: 3px solid var(--azul-escuro);
+    font-size: 19px;
+}
+.contato{
+    padding: 10px 28px;
+    background-color: var(--cinza-claro);
+    border-radius: 10px;
+    color: var(--preto);
+}
+.contato:hover:active{
+    background-color: var(--verde);
+    color: var(--verde-escuro);
+    transition-property:all;
+    transition-duration: 0.3s;
+}
