@@ -1,0 +1,8 @@
+.sobre{
+    padding: 28px 8%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 6rem;
+    align-items: center;
+}
