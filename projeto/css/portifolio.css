@@ -1,8 +1,63 @@
 .sobre{
     padding: 28px 8%;
     display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    gap: 6rem;
+    gap: 8rem;
     align-items: center;
+    min-height: 100vh;
+}
+.sobre p{
+    text-indent: 20px;
+}
+.sobre img{
+    width: 25rem;
+}
+.sobre img:hover{
+    transform: scale(104%);
+}
+.foto{
+    display: flex;
+    padding: 28px 8%;
+}
+.foto img{
+    margin: 5px;
+    width: 650px;
+    height: 750px;
+}
+.foto img:hover{
+    transform: scale(104%);
+}
+#academico{
+    padding: 28px 8%;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#dias{
+    background-color: var(--preto);
+    border-bottom: 0.13rem solid var(--azul-escuro-escuro);
+    color: var(--preto);
+    
+    font-weight:bolder;
+}
+#semana{
+    font-weight:bolder;
+
+}
+.horarios{
+    font-weight:bolder;
+    background-color: var(--preto);
+    border-right:  0.13rem solid var(--preto);
+}
+table{
+    border-collapse: collapse;
+    width: 0%;
+    border: 0.13rem solid var(--preto);
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+}
+td {
+    padding: 0.4rem;
+    text-align: center;
 }

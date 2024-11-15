@@ -11,10 +11,10 @@
     font-family: var(--fonte-titulo);
     background-color: var(--preto);
 
-    position: fixed;
     padding: 28px 8%;
     width: 100%;
 
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -16,7 +16,11 @@
     --fonte-texto:"Oxygen", sans-serif;
 }
 body{
+
     background-color: var(--branco);
+}
+main{
+    padding-top: 6rem;
 }
 img{
     width: 500px;
