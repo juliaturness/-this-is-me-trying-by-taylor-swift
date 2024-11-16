@@ -14,12 +14,17 @@
 .sobre img:hover{
     transform: scale(104%);
 }
+.fotos{
+    padding-top: 30px;
+   background-color: var(--azul-escuro);
+   min-height: 100vh;
+}
 .foto{
     display: flex;
     padding: 28px 8%;
+    gap: 1rem;
 }
 .foto img{
-    margin: 5px;
     width: 650px;
     height: 750px;
 }
@@ -33,11 +38,13 @@
     align-items: center;
     min-height: 100vh;
 }
-
+#academico p{
+    text-indent: 20px;
+}
 #dias{
     background-color: var(--preto);
     border-bottom: 0.13rem solid var(--azul-escuro-escuro);
-    color: var(--preto);
+    color: var(--branco);
     
     font-weight:bolder;
 }
@@ -46,18 +53,45 @@
 
 }
 .horarios{
+    color: var(--branco);
     font-weight:bolder;
     background-color: var(--preto);
     border-right:  0.13rem solid var(--preto);
 }
 table{
     border-collapse: collapse;
-    width: 0%;
+    width: 700px;
+    height: 500px;
     border: 0.13rem solid var(--preto);
     color: var(--preto);
     font-family: var(--fonte-texto);
 }
+#tabela table:hover{
+    transform: scale(104%);
+    box-shadow: 5px 5px 10px 5px var(--azul-escuro);
+}
 td {
     padding: 0.4rem;
     text-align: center;
+}
+#profissional{
+    padding: 28px 8%;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    min-height: 100vh;
+}
+#profissional h1{
+    min-width: 600px;
+    margin-bottom: 5px;
+}
+#profissional h2, h3{
+    margin-bottom:3px;
+}
+#profissional p{
+    text-indent: 20px;
+}
+
+#meu-chefe:hover{
+    transform: scale(104%);
 }
