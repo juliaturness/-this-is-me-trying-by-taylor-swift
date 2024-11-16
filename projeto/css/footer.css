@@ -1,0 +1,93 @@
+footer{
+    background-color: var(--azul-escuro);
+    padding: 28px 8%;
+    width: 100%;
+    font-family: var(--fonte-texto);
+    font-size: 10px;
+}
+#logo-footer{
+    font-size: 50px;
+    color: var(--preto);
+    font-family: var(--fonte-titulo);
+}
+#contato{
+    display: flex;
+    justify-content: space-between;
+}
+.form-contato h3{
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.form-contato a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--azul-escuro-escuro);
+}
+.form-contato a:hover{
+    font-size: 20px;
+}
+.form-contato a:active{
+    color: var(--preto);
+}
+.form-contato p{
+    max-width: 30rem;
+}
+
+.form-contato{
+    padding: 10px;
+}
+.form-contato form{
+    display: flex;
+    flex-direction: column;    
+}
+#nav-footer {
+    margin-top: 36px;
+}
+#nav-footer li{
+    margin: 15px;
+}
+#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+#redes-sociais img{
+    width: 30px;
+    border-radius: 0%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.form-contato input{
+    background: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--preto);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.form-contato label{
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+    
+}
+#botao button{
+    color: var(--cinza-claro);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: var(--preto);
+    border: 0;
+    cursor: pointer;
+}
+#botao button:active{
+    transform: scale(101%);
+    border: 3px solid var(--preto);
+    color: var(--preto);
+    background-color: var(--branco);
+    transition-duration: 0.1s;
+}
+#creditos{
+    text-align: center;
+}
