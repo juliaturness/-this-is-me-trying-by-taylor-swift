@@ -1,34 +1,12 @@
-I've been having a hard time adjusting
-I had the shiniest wheels, now they're rusting
-I didn't know if you'd care if I came back
-I have a lot of regrets about that
-Pulled the car off the road to the lookout
-Could've followed my fears all the way down
-And maybe I don't quite know what to say
-But I'm here in your doorway
-I just wanted you to know
-That this is me trying
-I just wanted you to know
-That this is me trying
-They told me all of my cages were mental
-So I got wasted like all my potential
-And my words shoot to kill when I'm mad
-I have a lot of regrets about that
-I was so ahead of the curve, the curve became a sphere
-Fell behind all my classmates, and I ended up here
-Pouring out my heart to a stranger
-But I didn't pour the whiskey
-I just wanted you to know
-That this is me trying
-I just wanted you to know
-That this is me trying
-At least I'm trying
-And it's hard to be at a party when I feel like an open wound
-It's hard to be anywhere these days when all I want is you
-You're a flashback in a film reel on the one screen in my town
-And I just wanted you to know
-That this is me trying
-(And maybe I don't quite know what to say)
-I just wanted you to know
-That this is me trying
-At least I'm trying
+2.1.1 - Usado h1,h2,h3 na maioria das secções da página.
+2.1.2 - Usado a estrutura básica em todo o projetos html, além de ul usados no footer.
+2.1.3 - Documento válidado pela extensão do html validate no vs code.
+2.1.4 - Utilizadas div com suas devidas is e classes dentro das sections. 
+2.1.5 - Usado o table para fazer a grade de horários na sectiona academico. 
+2.1.6 - Usado o form no footer para o usuário entrar em contato. 
+2.2.1 - Usado o font-family para mudar a fonte do título e texto em todo o documento por meio var(), com a fonte importada.
+2.2.2 - Usado o elemento padding na nav.
+2.2.3 - Usado o flexbox na section sobre, academico e profissional para alinha textos e imagens.
+2.2.4 - Usado o grid na página de projetos para padronizar as fotos. 
+2.2.5 - Usado os media queries em todas as páginas para tornar a página responsiva. 
+2.2.6 - Usado transições nos botões para mudança de cor e transformações nas escalas das imagens. 
