@@ -1,0 +1,238 @@
+@media screen and (max-width: 390px) {
+    .cabeçalho {
+        justify-content: flex-start;
+        padding: 15px 8%;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .projeto {
+        padding: 8px;
+        margin-left: 15px;
+    }
+   
+    p {
+        max-width: 350px;
+    }
+    .sobre {
+        margin-left: 150px;
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .sobre img {
+       display: none;
+    }
+
+    .sobre img:hover {
+        transform: scale(102%);
+    }
+
+    .fotos {
+        width: 121%;
+        padding-top: 20px;
+        background-color: var(--azul-escuro);
+    }
+
+    .foto {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .foto img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    #academico {
+        padding: 20px 5%;
+        flex-direction: column;
+        margin-left: 150px;
+        
+    }
+
+    #academico table {
+        width: 100%;
+        height: 300px;
+        margin-top: 1rem;
+
+    }
+
+    #profissional {
+        margin-left: 250px;
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profissional h1{
+        min-width: 574px;
+        margin-bottom: 5px;
+    }
+
+    #profissional img {
+        display: none;
+    }
+    footer{
+    width: 121%;
+    }
+    #contato {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-contato input {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    #redes-sociais {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #redes-sociais img {
+        width: 30px;
+        border-radius: 0%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    #creditos p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:391px) and (max-width:1024px) {
+
+    .cabeçalho{
+        padding: 20px 8%;
+        width: 100%;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .navbar a{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .navbar a:active{
+        font-size: 22px;
+    }
+    .projeto{
+        font-size: 20px;
+    }
+
+    .sobre{
+        padding: 20px 8%;
+        gap: 6rem;
+    }
+    .sobre img{
+        width: 18rem;
+    }
+    .sobre img:hover{
+        transform: scale(104%);
+    }
+    .fotos{
+        padding-top: 0px;
+       background-color: var(--branco);
+    }
+    .foto{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 8%;
+        gap: 2rem;
+    }
+    .foto img{
+        width: 500px;
+    }
+    .foto img:hover{
+        transform: scale(104%);
+    }
+    #academico{
+        margin-top: 200px;
+        padding: 20px 8%;
+        display:flow-root;
+    }
+    #academico p{
+        font-size: 19px;
+    }
+    table{
+        margin: 30px;
+    }
+    #profissional{
+        padding: 28px 8%;
+        display: flex;
+        gap: 8rem;
+        align-items: center;
+        min-height: 100vh;
+    }
+    #profissional h1{
+        min-width: 600px;
+        margin-bottom: 5px;
+    }
+    #profissional h2, h3{
+        margin-bottom:3px;
+        font-size: 20px;
+    }
+    #profissional p{
+        text-indent: 20px;
+        font-size: 19px;
+    }
+    #profissional img{
+        display:none;
+    }
+    
+
+    #logo-footer {
+        display: none;
+    }
+
+    #contato {
+        flex-direction: column;
+    }
+
+    .form-contato p {
+        display: none;
+    }
+
+    .form-contato form {
+        flex-direction: column;
+    }
+
+    #redes-sociais {
+        margin-left: 20px;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    #redes-sociais img {
+        width: 30px;
+        border-radius: 0%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .form-contato input {
+        max-width: 200px;
+    }
+    
+    #creditos p {
+        font-size: 15px;
+    }
+    
+}
